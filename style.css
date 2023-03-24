@@ -1,0 +1,105 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.logo{
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 15px;
+}
+
+.header{
+    background-image: url("hero_bolo.jpg");
+    background-size: cover;  
+    background-position: center;
+    height: 600px;
+    padding: 50px;
+}
+
+h1,h2,h3,h4{
+    color: #ff6b28;
+}
+
+h1{
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.container{
+    margin: auto;
+    max-width: 990px;
+    padding: 0 40px;
+}
+
+.card{
+    padding: 30px 70px;
+    max-width: 650px;
+    margin: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+li{
+    padding: 5px;
+    margin-bottom: 14px;
+}
+
+ol,ul{
+    margin-bottom: 50px;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    background-color: #ff6b28;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+p,li{
+    line-height: 28px;
+}
+
+.ingredientes,.btn{
+    cursor: url(cursor_ingredientes.png), default;
+}
+
+.preparo{
+    cursor: url(cursor_preparo.png), default;
+}
+
+.instrucoes{
+    cursor: url(cursor_intrucoes.png), default;
+}
+
+.footer{
+    color: white;
+    font-weight: bold;
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-text{
+    max-width: 500px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.footer-text>a{
+    text-decoration: none;
+    color: white;
+}
